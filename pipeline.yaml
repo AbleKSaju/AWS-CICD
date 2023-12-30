@@ -90,7 +90,7 @@ Resources:
                 PULL_REQUEST_CREATED, PULL_REQUEST_UPDATED,
                 PULL_REQUEST_REOPENED
             - Type: BASE_REF
-              Pattern: !Sub '^refs/heads/${GitHubBranch}$'
+              Pattern: !Sub '^refs/heads/main$'
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
